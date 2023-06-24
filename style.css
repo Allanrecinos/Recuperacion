@@ -1,0 +1,28 @@
+table {  
+    width: 100%;  
+    border: 3px solid ; 
+  } 
+   
+  th, td { 
+    padding: 15px; 
+  } 
+thead, tfoot { 
+    color: rgb(255, 255, 255); 
+    text-shadow: 1px 1px 1px gainsboro; 
+  } 
+   
+  thead th, tfoot th, tfoot td { 
+    background: linear-gradient(to bottom, goldenrod); 
+    border: 3px solid black; 
+  } 
+  tbody tr:nth-child(odd) { 
+    background-color:azure; 
+  } 
+   
+  tbody tr:nth-child(even) { 
+    background-color: gainsboro; 
+  } 
+   
+  table { 
+    background-color: goldenrod; 
+  }
